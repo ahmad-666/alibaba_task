@@ -1,0 +1,77 @@
+//Global Styles-------------------------------
+@font-face {
+  font-family: nunito;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(/fonts/NunitoSans-Light.ttf) format('ttf');
+}
+@font-face {
+  font-family: nunito;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(/fonts/NunitoSans-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: nunito;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url(/fonts/NunitoSans-Bold.ttf) format('ttf');
+}
+body {
+  font-family: nunito, Roboto;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  // word-break: break-word;
+  &::before,
+  &::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+html,
+body {
+  height: 100%;
+}
+.v-application {
+  p {
+    margin-bottom: 0px !important;
+  }
+  //width,height css classes -----------------------
+  .width-100 {
+    width: 100% !important;
+  }
+  .shadow-1 {
+    box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2) !important;
+  }
+  .shadow-2 {
+    box-shadow: 0 0px 5px 1px rgba(0, 0, 0, 0.2) !important;
+  }
+  .v-input.input-shadow-1 {
+    .v-input__slot {
+      box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.2) !important;
+    }
+  }
+  .v-image.bg-size-100 {
+    .v-image__image {
+      background-size: 100% 100%;
+    }
+  }
+  .main-section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  // @media (min-width: 1000px) {
+  //   .main-section {
+  //     width: 90%;
+  //   }
+  // }
+}

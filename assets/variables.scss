@@ -1,0 +1,70 @@
+@font-face {
+  font-family: nunito;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(~/assets/fonts/NunitoSans-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: nunito;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(~/assets/fonts/NunitoSans-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: nunito;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url(~/assets/fonts/NunitoSans-Bold.ttf) format('truetype');
+}
+$body-font-family: nunito, Roboto;
+$font-size-root: 16px;
+$headings: (
+  'h1': (
+    'size': 2.4rem,
+    'weight': 800,
+    'line-height': 3.5rem,
+  ),
+  'h2': (
+    'size': 1.8rem,
+    'weight': 800,
+    'line-height': 3rem,
+  ),
+  'h3': (
+    'size': 1.7rem,
+    'weight': 800,
+    'line-height': 3rem,
+  ),
+  'h4': (
+    'size': 1.6rem,
+    'weight': 800,
+  ),
+  'h5': (
+    'size': 1.5rem,
+    'weight': 800,
+  ),
+  'h6': (
+    'size': 1.4rem,
+    'weight': 800,
+  ),
+  'subtitle-1': (
+    'size': 1.1rem,
+    'weight': 600,
+  ),
+  'body-2': (
+    'size': 1rem,
+    'weight': 600,
+  ),
+  'caption': (
+    'size': 0.8rem,
+    'weight': 300,
+  ),
+  'button': (
+    'size': 0.9rem,
+    'weight': 600,
+  ),
+);
+$btn-text-transform: initial;
+$btn-font-weight: 600;
