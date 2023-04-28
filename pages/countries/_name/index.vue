@@ -108,7 +108,7 @@ export default {
     } catch (err) {
       this.loading = false;
       this.showError = true;
-      this.errorText = err.response.data.message || err.message;
+      this.errorText = err.response?.data?.message || err.message;
     }
   },
 };
